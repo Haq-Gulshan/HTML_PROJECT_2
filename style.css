@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400px;
+}
+
+.img {
+  height: 35px;
+  width: 50px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  overflow: hidden;
+  border-radius: 20px;
+  max-height: 900px;
+}
+
+.card_1 {
+  background-color: hsl(31, 77%, 52%);
+  max-width: 920px;
+  max-height: 600px;
+  margin: 0;
+  padding: 35px;
+}
+
+.card_2 {
+  background-color: hsl(184, 100%, 22%);
+  max-width: 920px;
+  max-height: 600px;
+  margin: 0;
+  padding: 35px;
+}
+
+.card_3 {
+  background-color: hsl(179, 100%, 13%);
+  max-width: 920px;
+  max-height: 600px;
+  margin: 0;
+  padding: 35px;
+}
+
+.heading {
+  margin: 10px 0 15px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", system-ui;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.description {
+  margin-bottom: 20px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+}
+
+button {
+  border: none;
+}
+
+.btn_1 {
+  margin-top: 40px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  padding: 10px 15px;
+  border-radius: 250px;
+  font-size: 12px;
+}
+
+.btn_2 {
+  margin-top: 40px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  padding: 10px 15px;
+  border-radius: 250px;
+  font-size: 12px;
+}
+
+.btn_3 {
+  margin-top: 40px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  padding: 10px 15px;
+  border-radius: 250px;
+  font-size: 12px;
+}
